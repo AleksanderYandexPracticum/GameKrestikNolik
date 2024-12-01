@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0"
+            prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.Controller">
+    <center>
+        <GridPane alignment="CENTER" gridLinesVisible="true" hgap="5.0" layoutX="20.0"
+                  maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity"
+                  minWidth="-Infinity" vgap="5.0" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="ALWAYS"
+                                   maxWidth="1.7976931348623157E308" minWidth="-Infinity"/>
+                <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="ALWAYS"
+                                   maxWidth="1.7976931348623157E308"/>
+                <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="ALWAYS"
+                                   maxWidth="1.7976931348623157E308"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints fillHeight="false" maxHeight="1.7976931348623157E308" minHeight="-Infinity"
+                                valignment="CENTER" vgrow="ALWAYS"/>
+                <RowConstraints fillHeight="false" maxHeight="1.7976931348623157E308" minHeight="-Infinity"
+                                valignment="CENTER" vgrow="ALWAYS"/>
+                <RowConstraints fillHeight="false" maxHeight="1.7976931348623157E308" minHeight="-Infinity"
+                                valignment="CENTER" vgrow="ALWAYS"/>
+            </rowConstraints>
+            <BorderPane.margin>
+                <Insets bottom="25.0" top="25.0"/>
+            </BorderPane.margin>
+            <children>
+                <Text fx:id="pole_0x0" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="133.4619140625" GridPane.halignment="LEFT"
+                      GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="pole_1x0" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="129.4619140625" GridPane.columnIndex="1"
+                      GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER"
+                      GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="pole_2x0" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="120.4619140625" GridPane.columnIndex="2"
+                      GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER"
+                      GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="pole_0x1" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="131.4619140625" GridPane.halignment="LEFT"
+                      GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="pole_1x1" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="129.4619140625" GridPane.columnIndex="1"
+                      GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1"
+                      GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="pole_0x2" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="132.4619140625" GridPane.halignment="LEFT"
+                      GridPane.hgrow="NEVER" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="pole_1x2" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="128.4619140625" GridPane.columnIndex="1"
+                      GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="2"
+                      GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="pole_2x2" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="119.4619140625" GridPane.columnIndex="2"
+                      GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="2"
+                      GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="pole_2x1" fill="#f50707" onMouseClicked="#onClick" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text=" " textAlignment="CENTER" wrappingWidth="119.4619140625" GridPane.columnIndex="2"
+                      GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1"
+                      GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font name="Segoe Script" size="82.0"/>
+                    </font>
+                </Text>
+
+            </children>
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </padding>
+        </GridPane>
+    </center>
+    <top>
+        <Text fill="#1fb824" strokeType="OUTSIDE" strokeWidth="0.0" text="КРЕСТИКИ-НОЛИКИ" textAlignment="CENTER"
+              underline="true" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Segoe Script Bold" size="30.0"/>
+            </font>
+            <BorderPane.margin>
+                <Insets/>
+            </BorderPane.margin>
+        </Text>
+    </top>
+    <bottom>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ESC - Новая игра &#10;Space - прерывание игры"
+              textAlignment="CENTER" underline="true" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Segoe Script" size="12.0"/>
+            </font>
+        </Text>
+    </bottom>
+</BorderPane>
